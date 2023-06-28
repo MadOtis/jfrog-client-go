@@ -11,8 +11,6 @@ import (
 	"net/http"
 )
 
-package _import
-
 type ImportService struct {
 	client     *jfroghttpclient.JfrogHttpClient
 	artDetails auth.ServiceDetails
