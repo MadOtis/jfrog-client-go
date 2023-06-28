@@ -419,7 +419,7 @@ func createJfrogHttpClient(artDetails *auth.ServiceDetails) (*jfroghttpclient.Jf
 	return jfroghttpclient.JfrogClientBuilder().
 		SetClientCertPath((*artDetails).GetClientCertPath()).
 		SetClientCertKeyPath((*artDetails).GetClientCertKeyPath()).
-		AppendPreRequestInterceptor((*artDetails).RunPreRequestFunctions).
+		//AppendPreRequestInterceptor((*artDetails).RunPreRequestFunctions).
 		Build()
 }
 
