@@ -64,18 +64,18 @@ type ImportParams struct {
 	IncludeMetadata *bool
 	// If true, prints more verbose logging
 	Verbose *bool
-	// If true, includes Maven 2 repository metadata and checksum files as part of the import
-	M2 *bool
-	// If true, repository binaries are excluded from the import
-	ExcludeContent *bool
+	// If true, fail the import if an error occurs
+	FailOnError *bool
+	// If true, fail the import if import is empty
+	FailIfEmpty *bool
 }
 
 type ImportBody struct {
 	ImportPath      string `json:"importPath,omitempty"`
 	IncludeMetadata *bool  `json:"includeMetadata,omitempty"`
 	Verbose         *bool  `json:"verbose,omitempty"`
-	M2              *bool  `json:"m2,omitempty"`
-	ExcludeContent  *bool  `json:"excludeContent,omitempty"`
+	FailOnError     *bool  `json:"failOnError,omitempty"`
+	FailIfEmpty     *bool  `json:"failIfEmpty,omitempty"`
 }
 
 func NewImportParams(importPath string) ImportParams {
