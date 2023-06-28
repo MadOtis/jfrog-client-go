@@ -11,7 +11,6 @@ require (
 	github.com/gookit/color v1.5.3
 	github.com/jfrog/build-info-go v1.9.6
 	github.com/jfrog/gofrog v1.3.0
-	github.com/jfrog/jfrog-client-go v1.30.1
 	github.com/mholt/archiver/v3 v3.5.1
 	github.com/stretchr/testify v1.8.4
 	github.com/xanzy/ssh-agent v0.3.3
