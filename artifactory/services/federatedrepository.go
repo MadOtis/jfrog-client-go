@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
 )
 
 const FederatedRepositoryRepoType = "federated"

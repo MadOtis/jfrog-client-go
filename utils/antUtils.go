@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/jfrog/gofrog/stringutils"
-	"github.com/jfrog/jfrog-client-go/utils/io"
+	"github.com/madotis/jfrog-client-go/utils/io"
 )
 
 var (

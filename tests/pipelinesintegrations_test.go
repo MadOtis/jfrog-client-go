@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/jfrog/jfrog-client-go/pipelines/services"
+	"github.com/madotis/jfrog-client-go/pipelines/services"
 	"github.com/stretchr/testify/assert"
 	"strings"
 	"testing"

@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/madotis/jfrog-client-go/utils"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/log"
 	sshagent "github.com/xanzy/ssh-agent"
 	"golang.org/x/crypto/ssh"
 )

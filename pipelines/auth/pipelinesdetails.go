@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/pipelines"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/madotis/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/config"
+	"github.com/madotis/jfrog-client-go/pipelines"
+	"github.com/madotis/jfrog-client-go/utils/log"
 )
 
 func NewPipelinesDetails() auth.ServiceDetails {

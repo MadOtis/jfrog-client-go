@@ -3,7 +3,7 @@ package services
 import (
 	"fmt"
 	"github.com/jfrog/gofrog/datastructures"
-	xrayUtils "github.com/jfrog/jfrog-client-go/xray/services/utils"
+	xrayUtils "github.com/madotis/jfrog-client-go/xray/services/utils"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

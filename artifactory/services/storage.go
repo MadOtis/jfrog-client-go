@@ -2,11 +2,11 @@ package services
 
 import (
 	"encoding/json"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/madotis/jfrog-client-go/artifactory/services/utils"
+	"github.com/madotis/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/log"
 	"net/http"
 	"path"
 	"strconv"

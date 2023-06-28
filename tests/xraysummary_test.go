@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils/tests/xray"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/xray/services"
+	"github.com/madotis/jfrog-client-go/artifactory/services/utils/tests/xray"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/xray/services"
 )
 
 var testsXraySummaryService *services.SummaryService

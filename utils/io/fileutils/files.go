@@ -16,7 +16,7 @@ import (
 	"github.com/jfrog/build-info-go/entities"
 	biutils "github.com/jfrog/build-info-go/utils"
 	gofrog "github.com/jfrog/gofrog/io"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
 	"golang.org/x/exp/slices"
 )
 

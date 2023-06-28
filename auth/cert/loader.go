@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/io/fileutils"
 )
 
 func loadCertificates(caCertPool *x509.CertPool, certificatesDirPath string) error {

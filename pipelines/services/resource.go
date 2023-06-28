@@ -2,10 +2,10 @@ package services
 
 import (
 	"encoding/json"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/io/httputils"
+	"github.com/madotis/jfrog-client-go/utils/log"
 	"net/http"
 )
 

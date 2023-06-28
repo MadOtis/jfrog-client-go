@@ -3,18 +3,18 @@ package artifactory
 import (
 	"io"
 
-	"github.com/jfrog/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/auth"
 
 	buildinfo "github.com/jfrog/build-info-go/entities"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	_go "github.com/jfrog/jfrog-client-go/artifactory/services/go"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	ioutils "github.com/jfrog/jfrog-client-go/utils/io"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
+	"github.com/madotis/jfrog-client-go/artifactory/services"
+	_go "github.com/madotis/jfrog-client-go/artifactory/services/go"
+	"github.com/madotis/jfrog-client-go/artifactory/services/utils"
+	"github.com/madotis/jfrog-client-go/config"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	clientutils "github.com/madotis/jfrog-client-go/utils"
+	ioutils "github.com/madotis/jfrog-client-go/utils/io"
+	"github.com/madotis/jfrog-client-go/utils/io/content"
 )
 
 type ArtifactoryServicesManagerImp struct {
@@ -596,4 +596,9 @@ func (sm *ArtifactoryServicesManagerImp) GetStorageInfo() (*utils.StorageInfo, e
 func (sm *ArtifactoryServicesManagerImp) CalculateStorageInfo() error {
 	storageService := services.NewStorageService(sm.config.GetServiceDetails(), sm.client)
 	return storageService.StorageInfoRefresh()
+}
+
+func (sm *ArtifactoryServicesManagerImp) Import(params services.ImportParams) error {
+	importService := services.NewImportService(sm.config.GetServiceDetails(), sm.client)
+	return importService.Import(params)
 }

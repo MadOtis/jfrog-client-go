@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
 
-	artUtils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/auth"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	artUtils "github.com/madotis/jfrog-client-go/artifactory/services/utils"
+	"github.com/madotis/jfrog-client-go/auth"
+	clientutils "github.com/madotis/jfrog-client-go/utils"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/log"
 )
 
 const (

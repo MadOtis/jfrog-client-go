@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	gofrogio "github.com/jfrog/gofrog/io"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	"github.com/madotis/jfrog-client-go/utils/log"
 )
 
 func init() {

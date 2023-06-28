@@ -3,7 +3,7 @@ package httputils
 import (
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/utils"
+	"github.com/madotis/jfrog-client-go/utils"
 )
 
 type PollingAction func() (shouldStop bool, responseBody []byte, err error)

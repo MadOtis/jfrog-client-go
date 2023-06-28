@@ -1,7 +1,7 @@
 package buildinfo
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/auth"
 )
 
 type Configuration struct {

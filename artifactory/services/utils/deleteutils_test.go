@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
+	"github.com/madotis/jfrog-client-go/utils"
+	"github.com/madotis/jfrog-client-go/utils/io/content"
+	"github.com/madotis/jfrog-client-go/utils/io/fileutils"
 	"github.com/stretchr/testify/assert"
 )
 

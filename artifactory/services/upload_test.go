@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
+	"github.com/madotis/jfrog-client-go/artifactory/services/utils"
 	"github.com/stretchr/testify/assert"
 )
 

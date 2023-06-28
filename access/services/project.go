@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/httputils"
+	"github.com/madotis/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/io/httputils"
 )
 
 const projectsApi = "api/v1/projects"

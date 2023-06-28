@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	biutils "github.com/jfrog/build-info-go/utils"
-	serviceutils "github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/errorutils"
-	"github.com/jfrog/jfrog-client-go/utils/io/fileutils"
-	"github.com/jfrog/jfrog-client-go/utils/log"
+	serviceutils "github.com/madotis/jfrog-client-go/artifactory/services/utils"
+	"github.com/madotis/jfrog-client-go/utils"
+	"github.com/madotis/jfrog-client-go/utils/errorutils"
+	"github.com/madotis/jfrog-client-go/utils/io/fileutils"
+	"github.com/madotis/jfrog-client-go/utils/log"
 )
 
 // Return all the existing paths of the provided root path

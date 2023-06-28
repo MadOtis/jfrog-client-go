@@ -3,7 +3,7 @@ package utils
 import (
 	"strings"
 
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
+	clientutils "github.com/madotis/jfrog-client-go/utils"
 )
 
 const (

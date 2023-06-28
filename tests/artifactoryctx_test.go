@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jfrog/jfrog-client-go/artifactory"
-	"github.com/jfrog/jfrog-client-go/auth"
-	"github.com/jfrog/jfrog-client-go/config"
+	"github.com/madotis/jfrog-client-go/artifactory"
+	"github.com/madotis/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/config"
 	"github.com/stretchr/testify/assert"
 )
 

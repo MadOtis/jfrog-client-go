@@ -3,17 +3,17 @@ package artifactory
 import (
 	"io"
 
-	"github.com/jfrog/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/auth"
 
 	buildinfo "github.com/jfrog/build-info-go/entities"
 
-	"github.com/jfrog/jfrog-client-go/artifactory/services"
-	_go "github.com/jfrog/jfrog-client-go/artifactory/services/go"
-	"github.com/jfrog/jfrog-client-go/artifactory/services/utils"
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	clientutils "github.com/jfrog/jfrog-client-go/utils"
-	"github.com/jfrog/jfrog-client-go/utils/io/content"
+	"github.com/madotis/jfrog-client-go/artifactory/services"
+	_go "github.com/madotis/jfrog-client-go/artifactory/services/go"
+	"github.com/madotis/jfrog-client-go/artifactory/services/utils"
+	"github.com/madotis/jfrog-client-go/config"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	clientutils "github.com/madotis/jfrog-client-go/utils"
+	"github.com/madotis/jfrog-client-go/utils/io/content"
 )
 
 type ArtifactoryServicesManager interface {
@@ -104,6 +104,7 @@ type ArtifactoryServicesManager interface {
 	FileList(relativePath string, optionalParams utils.FileListParams) (*utils.FileListResponse, error)
 	GetStorageInfo() (*utils.StorageInfo, error)
 	CalculateStorageInfo() error
+	Import(params services.ImportParams) error
 }
 
 // By using this struct, you have the option of overriding only some of the ArtifactoryServicesManager
@@ -457,6 +458,10 @@ func (esm *EmptyArtifactoryServicesManager) GetStorageInfo() (*utils.StorageInfo
 }
 
 func (esm *EmptyArtifactoryServicesManager) CalculateStorageInfo() error {
+	panic("Failed: Method is not implemented")
+}
+
+func (esm *EmptyArtifactoryServicesManager) Import(services.ImportParams) error {
 	panic("Failed: Method is not implemented")
 }
 

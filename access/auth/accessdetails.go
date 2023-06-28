@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/jfrog/jfrog-client-go/auth"
+	"github.com/madotis/jfrog-client-go/auth"
 )
 
 func NewAccessDetails() auth.ServiceDetails {

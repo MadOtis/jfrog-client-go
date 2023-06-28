@@ -3,10 +3,10 @@ package xray
 import (
 	"strings"
 
-	"github.com/jfrog/jfrog-client-go/config"
-	"github.com/jfrog/jfrog-client-go/http/jfroghttpclient"
-	"github.com/jfrog/jfrog-client-go/xray/services"
-	"github.com/jfrog/jfrog-client-go/xray/services/utils"
+	"github.com/madotis/jfrog-client-go/config"
+	"github.com/madotis/jfrog-client-go/http/jfroghttpclient"
+	"github.com/madotis/jfrog-client-go/xray/services"
+	"github.com/madotis/jfrog-client-go/xray/services/utils"
 )
 
 // XrayServicesManager defines the http client and general configuration
